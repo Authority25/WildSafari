@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: skyblue;
+   }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px ;
+    z-index: 1;
+    width: 100%;
+}
+.link{
+    list-style: none;
+    display: flex;
+}
+.link li{
+    padding: 0 19px;
+    margin-bottom: 20px;
+ 
+    
+}
+.link li a{
+    transition: 0.1s ease-in-out;
+    color: black;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+
+nav{
+    background-color: transparent;
+}
+.h1{
+    text-align: center;
+}
+.logo-img{
+    width: 99px;
+    cursor: pointer;
+}
+link, li a:hover{
+    background-color: rgb(10, 164, 178);
+    padding: 30px;
+}
+.div1{
+    padding: 400px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div p{
+    padding: 18px;
+    display: flex;
+
+}
+
+.div2{
+   padding: 50px;
+   background-color: aliceblue;
+   width: 400;
+   background-image: url(img/download.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size:25px ;
+}
+.div1-h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Apple Chancery;
+    color: white;
+    text-shadow: 3px 3px rgb(199, 225, 203);
+}
+.div1-h3{
+    font-size: 30px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div p{
+    align-items: center;
+}
+
+.div0, p{
+    color: #000;
+
+}
+div{
+    background-color:transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1-bgv{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
